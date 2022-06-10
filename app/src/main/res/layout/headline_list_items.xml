@@ -45,6 +45,8 @@
         <ImageView
             android:id="@+id/image_headline"
             android:layout_weight="1"
+            android:src="@drawable/not_available"
+            android:scaleType="centerCrop"
             android:layout_width="0dp"
             android:layout_height="match_parent">
 
