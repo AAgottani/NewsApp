@@ -1,6 +1,8 @@
 package com.example.newsx.Models;
 
-public class Source {
+import java.io.Serializable;
+
+public class Source implements Serializable {
 
     String name= "";
     String id="";

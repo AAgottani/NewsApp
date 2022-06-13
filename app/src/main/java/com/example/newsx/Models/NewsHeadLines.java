@@ -1,6 +1,8 @@
 package com.example.newsx.Models;
 
-public class NewsHeadLines {
+import java.io.Serializable;
+
+public class NewsHeadLines implements Serializable {
     Source source= null;
     String author= "";
     String title= "";
